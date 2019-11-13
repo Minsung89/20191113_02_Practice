@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pizzaLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:civ_border_color="#E91E1E"
+        app:civ_border_width="2dp"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
+        android:id="@+id/pizzaNameTxt"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:layout_gravity="center_vertical"
+        android:text="가게이름"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <ImageView
+
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next_img"/>
+
+</LinearLayout>
